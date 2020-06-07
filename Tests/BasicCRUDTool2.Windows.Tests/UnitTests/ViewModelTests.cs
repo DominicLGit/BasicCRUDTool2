@@ -1,7 +1,7 @@
-﻿namespace BasicCRUDTool2.Tests
+﻿namespace BasicCRUDTool2.Windows.Tests.UnitTests
 {
     using Microsoft.VisualStudio.TestTools.UnitTesting;
-    using BasicCRUDTool2.Windows;
+    using Windows;
     using System;
     using System.ComponentModel;
     using System.ComponentModel.DataAnnotations;

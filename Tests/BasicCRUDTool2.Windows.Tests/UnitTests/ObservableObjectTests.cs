@@ -1,13 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using BasicCRUDTool2.Windows;
-
-namespace BasicCRUDTool2.Tests
+﻿namespace BasicCRUDTool2.Windows.Tests.UnitTests
 {
-    
+    using Windows;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
 
     [TestClass]
