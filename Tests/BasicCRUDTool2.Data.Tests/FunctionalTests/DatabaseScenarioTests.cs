@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Npgsql;
 using System.Data;
+using System.ComponentModel;
 
 namespace BasicCRUDTool2.Data.Tests.FunctionalTests
 {
@@ -34,15 +35,10 @@ namespace BasicCRUDTool2.Data.Tests.FunctionalTests
             }
         }
 
-        //[TestMethod]
-        //private CRUDTestDBContext GetMockContext()
-        //{
-        //    var options = new DbContextOptionsBuilder<CRUDTestDBContext>()
-        //      .UseInMemoryDatabase("TestDatabase").Options;
+        [TestMethod]
+        public void CanCreateDatabase()
+        {
 
-        //    var context = new CRUDTestDBContext(options);
-
-        //    context.Playlist.Add(new Playlist {  Name = "TestPlayList1", PlaylistId = 1})
-        //}
+        }
     }
 }
